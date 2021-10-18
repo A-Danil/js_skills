@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 9 - JS DOM Events</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="task1">
+    <!-- TEMPLATE FOR TASK 1 GOES HERE -->
+    <table id="table">
+      <tr>
+        <td class="first">Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+      <tr>
+        <td class="first">Cell</td>
+        <td>Cell</td>
+        <td class="special">Special Cell</td>
+      </tr>
+      <tr>
+        <td class="first">Cell</td>
+        <td>Cell</td>
+        <td>Cell</td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="task2">
+    <!-- TEMPLATE FOR TASK 2 GOES HERE -->
+    <div class="invalid">
+      Type number does not follow format +380*********
+    </div>
+    <div class="valid">
+      Data was successfully sent
+    </div>
+    <div class="form">
+      <input type="tel" placeholder="Type phone number in format: +380*********">
+      <button name="submit" type="submit">Send</button>
+    </div>
+  </div>
+
+  <div id="task3">
+    <!-- TEMPLATE FOR TASK 3 GOES HERE -->
+    <div class="court">
+      <img class="court__img" id="court" src="assets/court.png" alt="court">
+      <img class="ball__img" id="ball" src="assets/ball.png" alt="ball">
+      <span class="scoring-zone a" id="zone-A"></span>
+      <span class="scoring-zone b" id="zone-B"></span>
+    </div>
+    <div class="team">
+      <span class="team__score" id="score-A"></span>
+      <span class="team__score" id="score-B"></span>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
